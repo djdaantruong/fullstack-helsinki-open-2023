@@ -33,16 +33,27 @@ const Header = (header) => {
 const Content = (contents) => {
   return (
     <>
-      <p>
-        {contents.course[0].part} {contents.course[0].exercises}
-      </p>
-      <p>
-        {contents.course[1].part} {contents.course[1].exercises}
-      </p>
-      <p>
-        {contents.course[2].part} {contents.course[2].exercises}
-      </p>
+      <Part
+        part={contents.course[0].part}
+        exercises={contents.course[0].exercises}
+      />
+      <Part
+        part={contents.course[1].part}
+        exercises={contents.course[1].exercises}
+      />
+      <Part
+        part={contents.course[2].part}
+        exercises={contents.course[2].exercises}
+      />
     </>
+  )
+}
+
+const Part = (content) => {
+  return (
+    <p>
+      {content.part} {content.exercises}
+    </p>
   )
 }
 
