@@ -8,3 +8,7 @@ Learn React, Redux, Node.js, MongoDB, GraphQL and TypeScript in one go! This cou
 
 - a General Info
 - b Fundamentals of Web Apps
+
+### Part 1
+
+- a Introduction to react
