@@ -13,3 +13,4 @@ Learn React, Redux, Node.js, MongoDB, GraphQL and TypeScript in one go! This cou
 
 - a Introduction to react
 - b JavaScript
+- c Component state, event handlers
